@@ -1,0 +1,166 @@
+html, body{
+    height: 100%; 
+    
+}
+
+header{
+    box-sizing: border-box;
+    background-color: rgb(16, 0, 79);
+    border-bottom: 3px solid rgb(90, 76, 145);
+}
+.header_container{
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0px 5% 0px 5%;  
+}
+
+.header_logo{
+    width: 7%;
+    height: 10%;
+
+    }
+.nav_container{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.nav_container a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: inherit;
+    width: 40%;
+    justify-content: space-between;
+}
+.botao_container{
+    width: 50%;
+    height: 100%;
+}
+.botaoLogin{
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.image-pos-header{
+    background-image:url(marconi.png);
+    width:100%;
+    height:40%;
+    background-position-y: 50%;
+    background-size:cover;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.image-pos-header h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+    color:rgb(16,0,79);
+    font-weight: bold;
+}
+.imagem-fundo{
+    background-image:url(marconi.png) ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+height: 100%;
+}
+.imagem-card1{
+    width: 40%;
+    height: 50%;
+    align-items: end;
+    display: flex ;
+    justify-content:space-around ;
+    align-content: center;
+
+}
+.imagem-card1 img{
+    height: 80%;
+    width: 100%;
+}
+.flex-container{
+
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.card{
+
+    margin: 2% 3% 2% 3%;
+
+    border: 1px solid black;
+
+
+
+    height: 350px;
+    width: 250px;
+
+    padding: 1%;
+
+   
+
+}
+
+.card img{
+
+    width: 100%;
+
+    height: 60%;
+
+}
+.sobre{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.enviar{
+    width: 40%;
+    text-align: center;
+    margin:  auto;
+}
+@media only screen and (max-width: 700px) {
+
+    .header_container, .nav_container,nav{
+
+        flex-direction: column;
+    }
+
+    .nav_container{
+
+        margin: 0;
+
+    }
+    nav{
+
+        align-items: center;
+
+    }
+
+  }
